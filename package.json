@@ -1,0 +1,26 @@
+{
+  "name": "kaboomap",
+  "version": "1.0.0",
+  "description": "A map experiment with Kaboom js lib",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecanciani/kaboomap.git"
+  },
+  "keywords": [
+    "kaboom",
+    "map"
+  ],
+  "author": "Jose Canciani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josecanciani/kaboomap/issues"
+  },
+  "homepage": "https://github.com/josecanciani/kaboomap#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
