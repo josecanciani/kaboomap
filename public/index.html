@@ -4,11 +4,25 @@
         <title>Kaboomap</title>
         <link rel="stylesheet" href="/css/index.css">
         <script type="module">
-            import kaboom from "/modules/kaboom/kaboom.mjs";
-            kaboom();
-            add([
-                text("hello world"),
-                pos(80, 40),
+            import kaboom from "/modules/kaboom/kaboom.mjs"
+
+            kaboom({
+                global: true,
+                fullscreen: true,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    scale: 2,
+                //debug: true,
+                clearColor: [0, 0, 0, 1]
+            });
+
+            loadRoot('https://i.imgur.com/')
+            loadSprite('mario', 'Wb1qfhK.png')
+
+            // add a game obj to screen, with multiple components
+            const mario = add([
+                sprite("mario", 32),
+                pos(1, 1),
+                area(),
+                //body(),
             ]);
         </script>
     </head>
